@@ -1,0 +1,27 @@
+.container {
+	margin-top: 10px;
+}
+
+.ancho {
+	width: 50%;
+}
+
+::ng-deep {
+	.calendar-dialog {
+		mat-dialog-container {
+			padding: 0px;
+		}
+	}
+
+	.calendar-dialog-backdrop {
+		background: #333333db;
+	}
+}
+
+h1 {
+	text-align: center;
+	letter-spacing: 3px;
+	border-bottom: 1px solid rgb(0, 0, 0);
+	margin: 15px;
+	padding: 20px;
+}

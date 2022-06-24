@@ -1,0 +1,57 @@
+.tipografia {
+  text-align: center;
+  letter-spacing: 3px;
+  color: whitesmoke;
+}
+
+.bg-div {
+  background-color: rgb(63, 63, 63);
+}
+
+
+
+table {
+  width: 100%;
+}
+
+th,
+td {
+  width: 20%;
+  color: rgb(0, 0, 0);
+}
+
+.mat-form-field {
+  font-size: 14px;
+  width: 100%;
+  height: 100%;
+}
+
+button {
+  display: block;
+  margin-bottom: 10px;
+
+}
+
+.mat-header-cell {
+  background-color: rgb(146, 204, 248);
+  color: rgb(0, 0, 0);
+}
+
+.acciones {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.rol {
+  color: whitesmoke;
+  font-family: 'Inter';
+  font-size: 20px;
+  font-weight: bolder;
+  margin-left: 40px;
+}
+
+.agregar {
+  margin-left: 85%;
+  padding: 10px;
+}

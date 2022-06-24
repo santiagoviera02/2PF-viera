@@ -1,0 +1,17 @@
+<div class="ajustar container bg-div">
+
+  <mat-toolbar class="toolbar-container">
+    <h1 appTwenty class="text-white tipografia subtit">Hola, bienvenido/a a mi pagina!.</h1>
+  </mat-toolbar>
+
+  <mat-toolbar *ngIf="admin" class="toolbar-container subtit">
+    <p appTwenty class="text-white tipografia">Iniciaste sesion como {{datosUsuario}}, tenes habilitada las funciones
+      para poder modificar los distintos apartados de esta pagina.</p>
+  </mat-toolbar>
+
+  <mat-toolbar *ngIf="!admin" class="toolbar-container subtit">
+    <p appTwenty class="text-white tipografia">Iniciaste sesion como {{datosUsuario}}, en el perfil de usuario no tienes
+      la posibilidad de modificar nada.</p>
+  </mat-toolbar>
+
+</div>
